@@ -8,4 +8,7 @@ class Polygon {
     return this.sides.length;
   }
 
+  get perimeter(){
+    return this.sides.reduce((memo, el) => memo + el, 0);
+  }
 }

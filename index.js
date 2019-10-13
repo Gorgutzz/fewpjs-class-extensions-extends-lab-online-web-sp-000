@@ -13,6 +13,6 @@ class Polygon {
       for (var int of this.sides) {
           sum += int
       }
-      return answer
+      return sum
   }
 }

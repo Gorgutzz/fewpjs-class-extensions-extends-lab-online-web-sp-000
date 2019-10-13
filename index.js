@@ -9,6 +9,10 @@ class Polygon {
   }
 
   get perimeter() {
-    return this.sides.reduce((memo, el) => memo + el, 0);
+      let answer = 0
+      for (var int of this.sides) {
+          answer += int
+      }
+      return answer
   }
 }

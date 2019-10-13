@@ -9,9 +9,9 @@ class Polygon {
   }
 
   get perimeter() {
-      let answer = 0
+      let sum = 0
       for (var int of this.sides) {
-          answer += int
+          sum += int
       }
       return answer
   }
